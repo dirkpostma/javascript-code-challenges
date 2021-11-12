@@ -15,6 +15,16 @@ const { solution } = require("./distinct.js");
 // N is an integer within the range [0..100,000];
 // each element of array A is an integer within the range [−1,000,000..1,000,000].
 
-test("solution returns correct output", () => {
+test("solution returns correct output for N is an integer within the range [0..100,000]", () => {
   expect(solution([2, 1, 1, 2, 3, 1])).toStrictEqual(3);
+  expect(solution([])).toStrictEqual(0);
+  expect(solution([1])).toStrictEqual(1);
+  expect(solution([3])).toStrictEqual(1);
+  expect(solution([1, 3])).toStrictEqual(2);
+  expect(solution([1, 1, 3, 4, 4])).toStrictEqual(3);
+  expect(solution([1, 1, 1])).toStrictEqual(1);
+});
+
+test("solution returns correct output for N is an integer within the range [-1,000,000..1,000,000]", () => {
+  expect(solution([-200, -1, 1, 2, 3, 1, -200])).toStrictEqual(5);
 });
