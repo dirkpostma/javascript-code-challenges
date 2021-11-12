@@ -1,13 +1,12 @@
 # Prepare code challenge
 
-This project is meant to prepare an environment to quickly solve javascript code challenge.
+This project is meant to prepare an environment to quickly solve javascript code challenges.
 
 Goal:
 
 - be able to solve challenges as quickly as possible
 - prepare tools, e.g. jest
-- exercise debugging, logging 
-- exercise common techniues, e.g. sorting, unique array, hash map, loops etc.
+- exercise common techniques, e.g. sorting, unique array, hash map, loops etc.
 
 ## References
 

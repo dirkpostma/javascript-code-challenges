@@ -16,7 +16,7 @@ test("Multiplying two numbers", async () => {
   expect(multiply(200, 100)).toStrictEqual(20000);
 });
 
-test("solution prints N squared numbers", () => {
+test("For integers 1,2,3..N, return squared values as array", () => {
   const result = solution(4);
   expect(result).toStrictEqual([0, 1, 4, 9]);
 });
