@@ -14,6 +14,14 @@ Goal:
 - npm install
 - npm test
 
+## Use
+
+To start a new test:
+
+- copy `echo` folder give suitable name
+- run `yarn test ./newname/newname.test.js` in terminal
+- start solving the problem in a test driven manner
+
 ## References
 
 https://medium.com/bb-tutorials-and-thoughts/how-to-write-unit-tests-in-nodejs-with-jest-test-library-a201658829c7
